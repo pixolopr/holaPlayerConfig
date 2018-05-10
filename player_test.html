@@ -1,0 +1,118 @@
+<html>
+
+<head>
+
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-22956444-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+    <script src="https://player2.h-cdn.com/hola_player.js?customer=network18"></script>
+
+    <script src="http://fpssl.local/assets/js/hola_config.js"></script>
+    <!--<script src="http://fpssl.local/assets/js/hola_js.js"></script>-->
+
+
+
+
+    <script>
+        console.log("SCRIPT TWO START");
+
+        window.onload = function() {
+            var player = new _nw18_holaplayerObj;
+            player.player = "#container";
+            player.sources = [{
+                src: "https://fpvodhls-vh.akamaihd.net/i/fp-audio/2018/04/19-04-2018/SkatingStoryFinal-,256000,512000,712000,.mp4.csmil/master.m3u8?hdnts=exp=1525958118~acl=/*~hmac=f368124bdb4be1262f4afabfb7f47791d0f2d88d03e61efd67c5e6a745b8ae6e",
+                type: '',
+                label: '1080p',
+            }];
+            player.controls = true;
+            player.autoplay = true;
+            player.title = '';
+            player.poster = 'https://images.firstpost.com/wp-content/uploads/2018/04/DhwanitRele1440.jpg';
+            player.settings = {
+                quality: true,
+            };
+            player.initVideo();
+
+
+            var player2 = new _nw18_holaplayerObj;
+            player2.player = "#container2";
+            player2.sources = [{
+                src: "https://fpvodhls-vh.akamaihd.net/i/fp-audio/2018/04/18-04-2018/ParkourCyrusKhan-,256000,512000,712000,.mp4.csmil/master.m3u8?hdnts=exp=1525958023~acl=/*~hmac=c44f1205efd738ba99d532c70a008377e47aa425f246fc68fbb942f289f94262",
+                type: '',
+                label: '1080p',
+            }];
+            player2.controls = true;
+            player2.autoplay = true;
+            player2.title = '';
+            player2.poster = 'https://images.firstpost.com/wp-content/uploads/2018/04/parkour1440.jpg';
+            player2.settings = {
+                quality: true,
+            };
+            player2.initVideo();
+
+        };
+        //};
+
+        /*
+         player_1 =  new _nw18_jwplayerObj;
+    player_1.set_height_width("400","400");    
+    player_1.set_controls(true);
+    player_1.set_auto_start(true);
+    player_1.set_video_title("First Lady:");
+    player_1.get_set_videourl('http://gt.moneycontrol.com/stream/t_json.php?p=CNBCAWAAZ&uid=73ebf491a8eb17cbf1a9db8d6f2d8dad&_ap=1485251424924&t=1');
+    //player_1.set_file('http://arjun.in.com/dashboard/hls/hls.m3u8','http://arjun.in.com/dashboard/hls/hls.m3u8','http://arjun.in.com/dashboard/hls/hls.m3u8');
+    //http://arjun.in.com/dashboard/hls/hls.txt
+	
+    player_1.set_player_key("3dWutZ5N7IsrB64wOTnfsH+RUzTJ3PGrcXmQmg==");
+    player_1.get_videoimage("http://s1.firstpost.in/wp-content/uploads/2011/04/F-Logodummy.jpg");
+    player_1.is_mobile();
+    player_1.add_replay(true);
+    player_1.add_fast_fwd(true);
+    player_1.add_rewind(true);
+    player_1.add_skin("stormtrooper","#e1261c","#fff","#000");
+    player_1.is_mute();
+    player_1.image = "http://www.cit.nus.edu.sg/graphics/vp-video-editing.jpg";
+    player_1.on_error("//content.jwplatform.com/videos/7RtXk3vl-52qL9xLP.mp4","//content.jwplatform.com/thumbs/7RtXk3vl-480.jpg");
+    //player_.add_adtag("pre","https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/1039154/Hindi_News18/Hindi_News18_Ros/Hindi_News18_ETV_Bangla_Live_Preroll&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]");
+    player_1.set_config();
+    player_1.get_player("container1");
+
+        */
+
+    </script>
+
+
+
+</head>
+
+<body>
+    <h1>HOLA CONFIG</h1>
+
+    <div id="container" class="video-js vjs-default-skin" style="width: 100%; height: 500px;"></div>
+
+
+    <div id="container2" class="video-js vjs-default-skin" style="width: 100%; height: 500px;"></div>
+
+    <h2>HOLA</h2>
+
+</body>
+
+</html>
